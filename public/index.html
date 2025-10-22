@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <title>Tabuada</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tabuada</h1>
+    </header>
+    <section>
+      <div>
+        <p>
+          Número:
+          <input type="number" name="num" id="txtn" />
+          <input type="button" value="Gerar Tabuada" onclick="tabuada()" />
+        </p>
+      </div>
+
+      <div id="tabela">
+        <select name="tabuada" id="seltab" size="10">
+          <option>Digite um número acima</option>
+        </select>
+      </div>
+    </section>
+    <footer>
+      <p>
+        &copy;
+        <a href="https://github.com/L1m4z1n" target="_blank" rel="noopener"
+          >L1m4z1n</a
+        >
+      </p>
+    </footer>
+
+    <script src="/src/js/main.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </body>
+</html>
